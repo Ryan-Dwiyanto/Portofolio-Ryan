@@ -60,46 +60,65 @@ const About = () => {
           <div className="sections-grid">
             <div className="glass-card skills-section">
               <div className="section-header">
-                <i className="icon-skill"></i>
-                <h3>Technical Mastery</h3>
+                <h3 className="section-subtitle">Technical Mastery</h3>
               </div>
               <div className="skills-tags">
+                <span className="skill-tag">HTML5 / CSS3</span>
                 <span className="skill-tag">JavaScript (ES6+)</span>
+                <span className="skill-tag">PHP / Laravel</span>
+                <span className="skill-tag">SQL & Database</span>
+                <span className="skill-tag">OOP</span>
                 <span className="skill-tag">Node.js</span>
                 <span className="skill-tag">Express.js</span>
-                <span className="skill-tag">PHP / Laravel</span>
-                <span className="skill-tag">SQL / MongoDB</span>
-                <span className="skill-tag">REST API</span>
-                <span className="skill-tag">Git / GitHub</span>
-                <span className="skill-tag">React.js</span>
+                <span className="skill-tag">Flutter</span>
               </div>
             </div>
 
-            <div className="glass-card values-section">
+            <div className="glass-card skills-section">
               <div className="section-header">
-                <i className="icon-values"></i>
-                <h3>Core Principles</h3>
+                <h3 className="section-subtitle">Tools & Platforms</h3>
               </div>
-              <div className="values-list">
+              <div className="skills-tags">
+                <span className="skill-tag tool">GitHub</span>
+                <span className="skill-tag tool">Figma</span>
+                <span className="skill-tag tool">Notion</span>
+                <span className="skill-tag tool">Trello</span>
+                <span className="skill-tag tool">VS Code</span>
+                <span className="skill-tag tool">Vercel</span>
+              </div>
+            </div>
+
+            <div className="glass-card values-section full-width">
+              <div className="section-header">
+                <h3 className="section-subtitle">Soft Skills & Pengalaman</h3>
+              </div>
+              <div className="values-grid">
                 <div className="value-item">
-                  <span className="value-icon">🎯</span>
+                  <span className="value-icon">⏰</span>
                   <div className="value-content">
-                    <h4>Precision</h4>
-                    <p>Menulis kode yang bersih dan terdokumentasi dengan baik.</p>
+                    <h4>Manajemen Waktu</h4>
+                    <p>Disiplin dan mampu mengelola prioritas dengan sangat baik.</p>
                   </div>
                 </div>
                 <div className="value-item">
-                  <span className="value-icon">⚡</span>
+                  <span className="value-icon">🔍</span>
                   <div className="value-content">
-                    <h4>Efficiency</h4>
-                    <p>Optimasi performa adalah prioritas utama dalam setiap sistem.</p>
+                    <h4>Ketelitian</h4>
+                    <p>Fokus pada detail dalam setiap baris kode dan desain yang dikerjakan.</p>
                   </div>
                 </div>
                 <div className="value-item">
-                  <span className="value-icon">🤝</span>
+                  <span className="value-icon">✅</span>
                   <div className="value-content">
-                    <h4>Collaboration</h4>
-                    <p>Percaya bahwa tim yang solid menghasilkan karya yang luar biasa.</p>
+                    <h4>Tanggung Jawab</h4>
+                    <p>Berkomitmen penuh terhadap target dan kualitas hasil pekerjaan.</p>
+                  </div>
+                </div>
+                <div className="value-item">
+                  <span className="value-icon">👥</span>
+                  <div className="value-content">
+                    <h4>Kolaborasi</h4>
+                    <p>Mampu bekerja secara harmonis baik mandiri maupun dalam tim.</p>
                   </div>
                 </div>
               </div>

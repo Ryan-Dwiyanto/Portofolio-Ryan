@@ -225,10 +225,11 @@ body {
   margin-bottom: 2rem;
 }
 
-.section-header h3 {
+.section-subtitle {
   font-family: 'Outfit', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
+  color: var(--text-bright);
 }
 
 /* Skills Tags */
@@ -248,6 +249,10 @@ body {
   transition: all 0.3s ease;
 }
 
+.skill-tag.tool {
+  border-color: rgba(96, 165, 250, 0.2);
+}
+
 .skill-tag:hover {
   background: var(--primary);
   color: white;
@@ -255,17 +260,24 @@ body {
   box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
 }
 
-/* Values List */
-.values-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+/* Values Grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .value-item {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
+  padding: 1rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .value-icon {
@@ -361,6 +373,13 @@ body {
   
   .sections-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
