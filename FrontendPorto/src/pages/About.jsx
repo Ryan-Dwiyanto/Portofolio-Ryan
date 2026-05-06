@@ -57,71 +57,60 @@ const About = () => {
             </div>
           </div>
 
-          <div className="sections-grid">
-            <div className="glass-card skills-section">
-              <div className="section-header">
-                <h3 className="section-subtitle">Technical Mastery</h3>
-              </div>
-              <div className="skills-tags">
-                <span className="skill-tag">HTML5 / CSS3</span>
-                <span className="skill-tag">JavaScript (ES6+)</span>
-                <span className="skill-tag">PHP / Laravel</span>
-                <span className="skill-tag">SQL & Database</span>
-                <span className="skill-tag">OOP</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">Express.js</span>
-                <span className="skill-tag">Flutter</span>
-              </div>
+          <div className="glass-card table-section">
+            <div className="section-header-minimal">
+              <h3 className="section-subtitle">Technical Specification</h3>
             </div>
-
-            <div className="glass-card skills-section">
-              <div className="section-header">
-                <h3 className="section-subtitle">Tools & Platforms</h3>
-              </div>
-              <div className="skills-tags">
-                <span className="skill-tag tool">GitHub</span>
-                <span className="skill-tag tool">Figma</span>
-                <span className="skill-tag tool">Notion</span>
-                <span className="skill-tag tool">Trello</span>
-                <span className="skill-tag tool">VS Code</span>
-                <span className="skill-tag tool">Vercel</span>
-              </div>
+            
+            <div className="minimal-table-container">
+              <table className="skills-table">
+                <thead>
+                  <tr>
+                    <th>Category</th>
+                    <th>Core Technologies</th>
+                    <th>Associated Tools</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="cat-cell">Web Development</td>
+                    <td>HTML5, CSS3, JavaScript (ES6+), React.js</td>
+                    <td>VS Code, Chrome DevTools</td>
+                  </tr>
+                  <tr>
+                    <td className="cat-cell">Backend Systems</td>
+                    <td>PHP, Laravel, Node.js, Express.js</td>
+                    <td>Postman, Vercel</td>
+                  </tr>
+                  <tr>
+                    <td className="cat-cell">Databases</td>
+                    <td>SQL, Database Management, MongoDB</td>
+                    <td>TablePlus, phpMyAdmin</td>
+                  </tr>
+                  <tr>
+                    <td className="cat-cell">Mobile & Apps</td>
+                    <td>Flutter, Dart</td>
+                    <td>Android Studio</td>
+                  </tr>
+                  <tr>
+                    <td className="cat-cell">Architecture</td>
+                    <td>OOP, RESTful API Design</td>
+                    <td>GitHub, Git</td>
+                  </tr>
+                  <tr>
+                    <td className="cat-cell">Management</td>
+                    <td>Time Management, Detail Oriented</td>
+                    <td>Notion, Trello, Figma</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
 
-            <div className="glass-card values-section full-width">
-              <div className="section-header">
-                <h3 className="section-subtitle">Soft Skills & Pengalaman</h3>
-              </div>
-              <div className="values-grid">
-                <div className="value-item">
-                  <span className="value-icon">⏰</span>
-                  <div className="value-content">
-                    <h4>Manajemen Waktu</h4>
-                    <p>Disiplin dan mampu mengelola prioritas dengan sangat baik.</p>
-                  </div>
-                </div>
-                <div className="value-item">
-                  <span className="value-icon">🔍</span>
-                  <div className="value-content">
-                    <h4>Ketelitian</h4>
-                    <p>Fokus pada detail dalam setiap baris kode dan desain yang dikerjakan.</p>
-                  </div>
-                </div>
-                <div className="value-item">
-                  <span className="value-icon">✅</span>
-                  <div className="value-content">
-                    <h4>Tanggung Jawab</h4>
-                    <p>Berkomitmen penuh terhadap target dan kualitas hasil pekerjaan.</p>
-                  </div>
-                </div>
-                <div className="value-item">
-                  <span className="value-icon">👥</span>
-                  <div className="value-content">
-                    <h4>Kolaborasi</h4>
-                    <p>Mampu bekerja secara harmonis baik mandiri maupun dalam tim.</p>
-                  </div>
-                </div>
-              </div>
+          <div className="values-minimal-grid">
+            <div className="value-minimal-item">
+              <h4>Soft Skills & Mindset</h4>
+              <p>Disiplin, teliti, bertanggung jawab, dan mampu berkolaborasi dalam tim secara efektif.</p>
             </div>
           </div>
 
