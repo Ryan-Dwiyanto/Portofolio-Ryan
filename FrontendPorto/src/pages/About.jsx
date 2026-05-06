@@ -1,9 +1,10 @@
 const About = () => {
   return (
-    <>
+    <main className="about-page">
       <section className="about-hero">
         <div className="container">
           <div className="about-header">
+            <span className="subtitle">Discover My Story</span>
             <h1 className="section-title">Tentang Saya</h1>
             <div className="hero-divider"></div>
           </div>
@@ -12,60 +13,109 @@ const About = () => {
 
       <section className="about-content">
         <div className="container">
-          <div className="profile-card">
-            <div className="profile-image">
-              <div className="image-placeholder">
-                <span>MR</span>
+          <div className="glass-card profile-section">
+            <div className="profile-grid">
+              <div className="profile-image-container">
+                <div className="profile-image-wrapper">
+                  <div className="image-placeholder">
+                    <span>RD</span>
+                  </div>
+                  <div className="image-decoration"></div>
+                </div>
               </div>
-            </div>
-            <div className="profile-info">
-              <h2 className="profile-name">Muhammad Ryan Dwiyanto</h2>
-              <div className="profile-badge">Backend Developer</div>
-              <p className="profile-intro">
-                Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{' '}
-                <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>. 
-                Saya memiliki ketertarikan yang mendalam dalam membangun aplikasi backend yang efisien, 
-                serta merancang sistem yang fungsional dan rapi. Saya sangat menikmati proses 
-                memecahkan masalah kompleks melalui kode dan selalu antusias untuk terus belajar teknologi baru.
-              </p>
+              <div className="profile-text">
+                <div className="name-header">
+                  <h2 className="profile-name">Muhammad Ryan Dwiyanto</h2>
+                  <span className="profile-badge">Backend Enthusiast</span>
+                </div>
+                <p className="profile-intro">
+                  Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{' '}
+                  <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>. 
+                  Saya memiliki ketertarikan yang mendalam dalam membangun arsitektur backend yang kokoh, 
+                  efisien, dan terukur. 
+                </p>
+                <p className="profile-description">
+                  Bagi saya, pemrograman bukan sekadar menulis baris kode, melainkan seni memecahkan masalah 
+                  dan membangun solusi yang memberikan dampak. Saya terus mengeksplorasi teknologi terbaru 
+                  untuk meningkatkan kapabilitas saya dalam dunia pengembangan perangkat lunak.
+                </p>
+                <div className="profile-stats">
+                  <div className="stat-item">
+                    <span className="stat-value">1+</span>
+                    <span className="stat-label">Years Learning</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-value">10+</span>
+                    <span className="stat-label">Projects</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-value">5+</span>
+                    <span className="stat-label">Tech Stack</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="skills-grid">
-            <div className="skill-card">
-              <h3>Technical Skills</h3>
-              <ul className="skills-list">
-                <li>HTML, CSS, JavaScript</li>
-                <li>PHP (Laravel)</li>
-                <li>SQL & Database Management</li>
-                <li>Object Oriented Programming (OOP)</li>
-                <li>Flutter</li>
-              </ul>
+          <div className="sections-grid">
+            <div className="glass-card skills-section">
+              <div className="section-header">
+                <i className="icon-skill"></i>
+                <h3>Technical Mastery</h3>
+              </div>
+              <div className="skills-tags">
+                <span className="skill-tag">JavaScript (ES6+)</span>
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">Express.js</span>
+                <span className="skill-tag">PHP / Laravel</span>
+                <span className="skill-tag">SQL / MongoDB</span>
+                <span className="skill-tag">REST API</span>
+                <span className="skill-tag">Git / GitHub</span>
+                <span className="skill-tag">React.js</span>
+              </div>
             </div>
 
-            <div className="skill-card">
-              <h3>Tools & Platforms</h3>
-              <ul className="skills-list">
-                <li>GitHub</li>
-                <li>Figma</li>
-                <li>Notion</li>
-                <li>Trello</li>
-              </ul>
+            <div className="glass-card values-section">
+              <div className="section-header">
+                <i className="icon-values"></i>
+                <h3>Core Principles</h3>
+              </div>
+              <div className="values-list">
+                <div className="value-item">
+                  <span className="value-icon">🎯</span>
+                  <div className="value-content">
+                    <h4>Precision</h4>
+                    <p>Menulis kode yang bersih dan terdokumentasi dengan baik.</p>
+                  </div>
+                </div>
+                <div className="value-item">
+                  <span className="value-icon">⚡</span>
+                  <div className="value-content">
+                    <h4>Efficiency</h4>
+                    <p>Optimasi performa adalah prioritas utama dalam setiap sistem.</p>
+                  </div>
+                </div>
+                <div className="value-item">
+                  <span className="value-icon">🤝</span>
+                  <div className="value-content">
+                    <h4>Collaboration</h4>
+                    <p>Percaya bahwa tim yang solid menghasilkan karya yang luar biasa.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div className="skill-card full-width">
-              <h3>Soft Skills & Pengalaman</h3>
-              <ul className="skills-list">
-                <li>Disiplin dan memiliki manajemen waktu yang baik</li>
-                <li>Teliti dalam mengerjakan tugas dan memperhatikan detail</li>
-                <li>Bertanggung jawab terhadap pekerjaan dan target yang diberikan</li>
-                <li>Mampu bekerja secara mandiri maupun dalam tim</li>
-              </ul>
+          <div className="cta-section">
+            <div className="glass-card cta-card">
+              <h3>Tertarik untuk bekerja sama?</h3>
+              <p>Mari diskusikan bagaimana saya bisa membantu proyek Anda.</p>
+              <a href="/contact" className="cta-button">Hubungi Saya</a>
             </div>
           </div>
         </div>
       </section>
-    </>
+    </main>
   );
 };
 
