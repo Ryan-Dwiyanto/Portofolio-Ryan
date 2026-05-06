@@ -20,7 +20,7 @@ const Contact = () => {
     setStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -105,7 +105,7 @@ const Contact = () => {
             <div className="contact-form-wrapper">
               <form className="contact-form" onSubmit={handleSubmit}>
                 <h3>Kirim Pesan Langsung</h3>
-                
+
                 {status.message && (
                   <div className={`form-status ${status.type === 'success' ? 'status-success' : 'status-error'}`} style={{
                     padding: '10px',
