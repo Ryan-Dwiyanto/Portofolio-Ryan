@@ -14,51 +14,46 @@ const About = () => {
       <section className="about-content">
         <div className="container">
           <div className="glass-card profile-section">
-            <div className="profile-grid">
-              <div className="profile-image-container">
-                <div className="profile-image-wrapper">
-                  <div className="image-placeholder">
-                    <span>RD</span>
-                  </div>
-                  <div className="image-decoration"></div>
+            <div className="profile-top">
+              <div className="profile-image-wrapper">
+                <div className="image-placeholder">
+                  <span>RD</span>
                 </div>
               </div>
+              <div className="profile-identity">
+                <h2 className="profile-name">Muhammad Ryan Dwiyanto</h2>
+                <span className="profile-badge">Backend Enthusiast</span>
+              </div>
+            </div>
 
-              <div className="profile-text">
-                <div className="name-header">
-                  <h2 className="profile-name">Muhammad Ryan Dwiyanto</h2>
-                  <span className="profile-badge">Backend Enthusiast</span>
-                </div>
+            <div className="profile-body">
+              <p className="profile-intro">
+                Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{" "}
+                <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>.
+                Saya memiliki ketertarikan yang mendalam dalam membangun
+                arsitektur backend yang kokoh, efisien, dan terukur.
+              </p>
+              <p className="profile-description">
+                Bagi saya, pemrograman bukan sekadar menulis baris kode,
+                melainkan seni memecahkan masalah dan membangun solusi yang
+                memberikan dampak. Saya terus mengeksplorasi teknologi terbaru
+                untuk meningkatkan kapabilitas saya dalam dunia pengembangan
+                perangkat lunak.
+              </p>
+            </div>
 
-                <p className="profile-intro">
-                  Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{" "}
-                  <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>.
-                  Saya memiliki ketertarikan yang mendalam dalam membangun
-                  arsitektur backend yang kokoh, efisien, dan terukur.
-                </p>
-
-                <p className="profile-description">
-                  Bagi saya, pemrograman bukan sekadar menulis baris kode,
-                  melainkan seni memecahkan masalah dan membangun solusi yang
-                  memberikan dampak. Saya terus mengeksplorasi teknologi terbaru
-                  untuk meningkatkan kapabilitas saya dalam dunia pengembangan
-                  perangkat lunak.
-                </p>
-
-                <div className="profile-stats">
-                  <div className="stat-item">
-                    <span className="stat-value">1+</span>
-                    <span className="stat-label">Years Learning</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-value">10+</span>
-                    <span className="stat-label">Projects</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-value">5+</span>
-                    <span className="stat-label">Tech Stack</span>
-                  </div>
-                </div>
+            <div className="profile-stats">
+              <div className="stat-item">
+                <span className="stat-value">1+</span>
+                <span className="stat-label">Years Learning</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-value">10+</span>
+                <span className="stat-label">Projects</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-value">5+</span>
+                <span className="stat-label">Tech Stack</span>
               </div>
             </div>
           </div>
