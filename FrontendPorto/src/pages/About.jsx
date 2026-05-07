@@ -23,22 +23,28 @@ const About = () => {
                   <div className="image-decoration"></div>
                 </div>
               </div>
+
               <div className="profile-text">
                 <div className="name-header">
                   <h2 className="profile-name">Muhammad Ryan Dwiyanto</h2>
                   <span className="profile-badge">Backend Enthusiast</span>
                 </div>
+
                 <p className="profile-intro">
-                  Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{' '}
-                  <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>. 
-                  Saya memiliki ketertarikan yang mendalam dalam membangun arsitektur backend yang kokoh, 
-                  efisien, dan terukur. 
+                  Saya adalah siswa <strong>SMK Wikrama Bogor</strong> jurusan{" "}
+                  <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>.
+                  Saya memiliki ketertarikan yang mendalam dalam membangun
+                  arsitektur backend yang kokoh, efisien, dan terukur.
                 </p>
+
                 <p className="profile-description">
-                  Bagi saya, pemrograman bukan sekadar menulis baris kode, melainkan seni memecahkan masalah 
-                  dan membangun solusi yang memberikan dampak. Saya terus mengeksplorasi teknologi terbaru 
-                  untuk meningkatkan kapabilitas saya dalam dunia pengembangan perangkat lunak.
+                  Bagi saya, pemrograman bukan sekadar menulis baris kode,
+                  melainkan seni memecahkan masalah dan membangun solusi yang
+                  memberikan dampak. Saya terus mengeksplorasi teknologi terbaru
+                  untuk meningkatkan kapabilitas saya dalam dunia pengembangan
+                  perangkat lunak.
                 </p>
+
                 <div className="profile-stats">
                   <div className="stat-item">
                     <span className="stat-value">1+</span>
@@ -61,7 +67,7 @@ const About = () => {
             <div className="section-header-minimal">
               <h3 className="section-subtitle">Technical Specification</h3>
             </div>
-            
+
             <div className="minimal-table-container">
               <table className="skills-table">
                 <thead>
@@ -110,7 +116,10 @@ const About = () => {
           <div className="values-minimal-grid">
             <div className="value-minimal-item">
               <h4>Soft Skills & Mindset</h4>
-              <p>Disiplin, teliti, bertanggung jawab, dan mampu berkolaborasi dalam tim secara efektif.</p>
+              <p>
+                Disiplin, teliti, bertanggung jawab, dan mampu berkolaborasi
+                dalam tim secara efektif.
+              </p>
             </div>
           </div>
 
@@ -118,7 +127,9 @@ const About = () => {
             <div className="glass-card cta-card">
               <h3>Tertarik untuk bekerja sama?</h3>
               <p>Mari diskusikan bagaimana saya bisa membantu proyek Anda.</p>
-              <a href="/contact" className="cta-button">Hubungi Saya</a>
+              <a href="/contact" className="cta-button">
+                Hubungi Saya
+              </a>
             </div>
           </div>
         </div>
