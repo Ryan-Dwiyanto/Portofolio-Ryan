@@ -16,34 +16,87 @@ const Projects = () => {
       <section className="projects-content">
         <div className="container">
           <div className="projects-grid">
-            {/* Website Shop */}
+            {/* Aplikasi Kasir Laravel */}
             <div className="project-card featured" data-tech="web">
-              <div className="project-badge">E-Commerce</div>
+              <div className="project-badge">Point of Sale</div>
               <div className="project-image">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Website Shop"
+                  src="https://images.unsplash.com/photo-1556742044-3c52d6e88c02?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Aplikasi Kasir Laravel"
                 />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href="#" className="link-btn" target="_blank" rel="noopener noreferrer" title="Live Demo">
-                      <i className="fas fa-external-link-alt"></i>
-                    </a>
-                    <a href="#" className="link-btn github" title="GitHub">
+                    <a href="https://github.com/Ryan-Dwiyanto/12309898-Muhammad-Ryan-Dwiyanto-Kasir" className="link-btn github" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
                   </div>
                 </div>
               </div>
               <div className="project-info">
-                <h3>Website Shop</h3>
+                <h3>Aplikasi Kasir Laravel</h3>
                 <p>
-                  Membuat website e-commerce yang mencakup halaman beranda, katalog produk, proses pembelian, dan pembayaran.
+                  Sistem Point of Sale (POS) berbasis web yang efisien untuk manajemen transaksi, inventaris barang, dan laporan penjualan real-time.
                 </p>
                 <div className="project-tech">
-                  <span className="tech-tag bg-html">HTML</span>
-                  <span className="tech-tag bg-css">CSS</span>
-                  <span className="tech-tag">Responsive</span>
+                  <span className="tech-tag bg-laravel">Laravel</span>
+                  <span className="tech-tag bg-php">PHP</span>
+                  <span className="tech-tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Sistem Manajemen Produk */}
+            <div className="project-card" data-tech="backend">
+              <div className="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1586769852044-692d6e3703a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Sistem Manajemen Produk"
+                />
+                <div className="project-overlay">
+                  <div className="project-links">
+                    <a href="https://github.com/Ryan-Dwiyanto/manajemen-produk" className="link-btn github" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-info">
+                <h3>Sistem Manajemen Produk</h3>
+                <p>
+                  RESTful API untuk pengelolaan katalog produk dengan arsitektur MVC, mendukung integrasi database yang fleksibel.
+                </p>
+                <div className="project-tech">
+                  <span className="tech-tag bg-node">Node.js</span>
+                  <span className="tech-tag bg-js">Express.js</span>
+                  <span className="tech-tag">MVC Architecture</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Secure Code */}
+            <div className="project-card" data-tech="backend">
+              <div className="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Secure Code Implementation"
+                />
+                <div className="project-overlay">
+                  <div className="project-links">
+                    <a href="https://github.com/Ryan-Dwiyanto/Secure-Code" className="link-btn github" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-info">
+                <h3>Secure Code Implementation</h3>
+                <p>
+                  Implementasi aplikasi web dengan fokus pada keamanan siber, enkripsi data, dan perlindungan terhadap celah keamanan umum.
+                </p>
+                <div className="project-tech">
+                  <span className="tech-tag bg-laravel">Laravel</span>
+                  <span className="tech-tag">CyberSecurity</span>
+                  <span className="tech-tag">Encryption</span>
                 </div>
               </div>
             </div>
@@ -57,7 +110,7 @@ const Projects = () => {
                 />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href="https://github.com/Ryan-Dwiyanto/Bookshelf" className="link-btn github">
+                    <a href="https://github.com/Ryan-Dwiyanto/Bookshelf" className="link-btn github" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
                   </div>
@@ -65,39 +118,10 @@ const Projects = () => {
               </div>
               <div className="project-info">
                 <h3>BookShelf</h3>
-                <p>Sistem manajemen buku untuk menandai buku yang ingin atau sudah dibaca.</p>
+                <p>Aplikasi manajemen koleksi buku pribadi dengan fitur pelacakan status pembacaan dan penyimpanan lokal.</p>
                 <div className="project-tech">
                   <span className="tech-tag bg-js">JavaScript</span>
-                  <span className="tech-tag bg-css">CSS</span>
                   <span className="tech-tag">Local Storage</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Sistem Manajemen Produk */}
-            <div className="project-card" data-tech="backend">
-              <div className="project-image">
-                <img
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Sistem Manajemen Produk"
-                />
-                <div className="project-overlay">
-                  <div className="project-links">
-                    <a href="https://github.com/Ryan-Dwiyanto/manajemen-produk/" className="link-btn github">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="project-info">
-                <h3>Sistem Manajemen Produk</h3>
-                <p>
-                  Aplikasi backend berbasis Node.js menggunakan framework Express.js yang berfungsi sebagai REST API untuk mengelola data produk.
-                </p>
-                <div className="project-tech">
-                  <span className="tech-tag bg-node">Node.js</span>
-                  <span className="tech-tag bg-js">Express.js</span>
-                  <span className="tech-tag">REST API</span>
                 </div>
               </div>
             </div>
@@ -111,21 +135,20 @@ const Projects = () => {
                 />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href="https://github.com/Ryan-Dwiyanto/Jurnalku_trio" className="link-btn github">
+                    <a href="https://github.com/Ryan-Dwiyanto/Jurnalku_trio" className="link-btn github" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
                   </div>
                 </div>
               </div>
               <div className="project-info">
-                <h3>Jurnalku (Flutter – View)</h3>
+                <h3>Jurnalku (Flutter)</h3>
                 <p>
-                  Membuat tampilan antarmuka (UI) aplikasi Jurnalku menggunakan Flutter dengan desain modern dan responsive.
+                  Antarmuka aplikasi jurnal harian yang modern dan responsif, dibangun menggunakan framework Flutter.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag bg-flutter">Flutter</span>
                   <span className="tech-tag bg-dart">Dart</span>
-                  <span className="tech-tag">UI/UX</span>
                 </div>
               </div>
             </div>

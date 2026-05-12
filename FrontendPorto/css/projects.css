@@ -116,15 +116,14 @@ body {
   overflow: hidden;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  opacity: 0;
-  transform: translateY(50px);
+  animation: fadeInUp 0.8s ease-out forwards;
 }
 
-.project-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-  animation-delay: calc(var(--order) * 0.1s);
-}
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(5) { animation-delay: 0.5s; }
 
 .project-card:hover {
   transform: translateY(-20px) !important;
@@ -262,10 +261,11 @@ body {
 .tech-tag.bg-css { background: linear-gradient(135deg, #264de4, #2965f1); }
 .tech-tag.bg-php { background: linear-gradient(135deg, #777bb4, #8e8bc6); }
 .tech-tag.bg-mysql { background: linear-gradient(135deg, #007798, #006679); }
-.tech-tag.bg-oop { background: linear-gradient(135deg, #10b981, #059669); }
+.tech-tag.bg-laravel { background: linear-gradient(135deg, #ff2d20, #b31d14); }
+.tech-tag.bg-node { background: linear-gradient(135deg, #339933, #215721); }
+.tech-tag.bg-js { background: linear-gradient(135deg, #f7df1e, #d4bf17); color: #000; }
 .tech-tag.bg-flutter { background: linear-gradient(135deg, #02569b, #0170c6); }
 .tech-tag.bg-dart { background: linear-gradient(135deg, #0170c6, #00bcd4); }
-.tech-tag.bg-js{ background: linear-gradient(135deg, #e7e304 ,#e07d04 ); }
 /* Animations */
 @keyframes fadeInUp {
   from {
